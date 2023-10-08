@@ -59,6 +59,7 @@ while true; do
                 echo "パスワード: $(echo "$line" | cut -d':' -f3)"
 			done
 		fi
+		
 		rm -f password.txt
 
     elif [ "$select" == "Exit" ]; then
